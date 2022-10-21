@@ -1,0 +1,56 @@
+div.list > div {
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  div.list > div::before {
+    content: " ";
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+
+  .button{
+    display: inline;
+    min-width: 2rem;
+    min-height: 2rem;
+    border: solid 1px black;
+    padding: 0.5rem;
+    background-color: #eb4034;
+    color: #b8170b;
+    cursor: pointer;
+  }
+
+  .button.kiwi{
+    background-image: url('./images/kiwi-33884_1280.png');
+    background-size: contain;
+  }
+
+  .button.meerkat{
+    background-image: url('./images/1024px-Meerkat_\(Suricata_suricatta\)_Tswalu.jpg');
+    background-size: contain;
+  }
+
+  .button.wekka{
+    background-image: url('./images/SI_Weka.jpg');
+    background-size: contain;
+  }
+
+  .button.llama{
+    background-image: url('./images/llama-297668_1280.png');
+    background-size: contain;
+  }
+
+  .button.hedgehog{
+    background-image: url('./images/hedgehog-1199381_1280.png');
+    background-size: contain;
+  }
+
+  .button.warthog{
+    background-image: url('./images/boar-4187952_1280.png');
+    background-size: contain;
+  }
